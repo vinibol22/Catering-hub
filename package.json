@@ -5,8 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build":  "react-scripts build && echo '/* /index.html 200' | cat >build/_redirects ",
     "preview": "vite preview"
+   
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.0",
