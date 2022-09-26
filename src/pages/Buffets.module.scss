@@ -1,0 +1,48 @@
+@import "../styles/colors";
+::-webkit-scrollbar {
+  width: 0.75rem;
+  height: 0.75rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(47, 130, 238);
+  border-radius: 1rem;
+}
+
+::-webkit-scrollbar-track {
+  border-inline: 0.2rem rgb(174, 171, 171);
+}
+
+.buffetsImage {
+  display: flex;
+  .card {
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 1rem 0rem 2.5rem;
+    img {
+      border: solid 0.1rem;
+      margin: 0.1rem;
+    }
+
+    button {
+      width: 86%;
+      height: 2rem;
+      color: #ffff;
+      background-color: #1a8fdd;
+    }
+  }
+}
+
+.buffetList {
+  margin-top: 5rem;
+  width: 80%;
+  display: flex;
+  overflow-x: auto;
+
+  .listContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+  }
+}

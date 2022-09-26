@@ -1,0 +1,45 @@
+@import "../styles/colors";
+.secao {
+  display: flex;
+  justify-content: center;
+  padding-top: 5rem;
+ 
+  .secaoOne {
+    width: 50%;
+    padding: 0 5rem;
+  }
+  .secaoTwo {
+    width: 50%;
+    p {
+      font-size: 2.5rem;
+    }
+
+    .textSecaoTwo {
+      display: flex;
+      padding: 3rem 0rem 0rem 0rem;
+      
+    }
+    .texAviao {
+      font-size: 1.5rem;
+      padding: 1rem 0rem 0 0; 
+      font-family: "Indie Flower";
+      color: $vine;
+    }
+
+    .textHeader {
+      font-family: "Open Sans", sans-serif;
+      color: $vine;
+      font-weight: bold;
+    }
+    
+  }
+}
+.secaoGrande{
+  background-color:$vine-200;
+  min-height: 40rem;
+  
+}
+.tomate{
+  width: 3rem;
+  object-fit: contain;
+}

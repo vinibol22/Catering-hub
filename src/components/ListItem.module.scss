@@ -1,0 +1,18 @@
+@import "../styles/colors";
+.contratarButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1rem;
+  button {
+    width: 10rem;
+    height: 2.5rem;
+    background-color: $vine;
+    color: white;
+    border-radius: 0.3rem;
+    border: 1px white;
+    &:hover{
+      background-color: $purple;
+    }
+  }
+}

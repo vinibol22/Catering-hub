@@ -1,0 +1,35 @@
+@import "../styles/colors";
+header {
+  .navigation {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+
+   
+    a {
+      text-decoration: none;
+      justify-content: center;
+      padding: 0 3rem;
+      font-size: 1.5rem;
+      font-family: "Open Sans", sans-serif;
+      font-weight: 500 "italic";
+      color: $vine;
+
+      &:hover{
+        font-size: 1.9rem;
+      }
+    }
+
+    .logo {
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      padding-right: 5rem;
+      padding: 0 3rem;
+      margin: 0rem;
+    }
+    .logo{
+      width: 10rem;
+    }
+  }
+}

@@ -1,0 +1,48 @@
+@import "../styles/colors";
+.text {
+  display: flex;
+  justify-content: center;
+  font-size: 3.5rem;
+  font-family: "Open Sans", sans-serif;
+  color: $vine;
+  font-weight: bold;
+}
+.iconsArea {
+  display: flex;
+
+
+
+  img {
+    padding: 0 9rem;
+  }
+  .tela{
+    padding: 0 0 0 19.5rem;
+  }
+  .carrinho{
+    padding: 0 0 0 20rem;
+  }
+  .ellipse2 {
+    padding: 0rem 12rem;
+  }
+  .ellipse3 {
+    padding: 0rem 12rem;
+  }
+  .area1 {
+    width: 50%;
+  }
+  .area2 {
+    width: 50%;
+  }
+  .textIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50rem;
+    padding: 0 3rem;
+    font-size: 1.5rem;
+    font-family: "Indie Flower";
+  }
+}
+.espacamento {
+  height: 5rem;
+}

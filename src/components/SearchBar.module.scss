@@ -1,0 +1,60 @@
+@import "../styles/colors";
+.form__input{
+  min-width: 10rem;
+  border-radius: 8px ;
+  min-height: 2rem;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  font-size: 62,5%;
+}
+
+.form__group{
+  display: flex;
+  width: 100rem;
+  padding: 0;
+}
+
+.caixaBuffet{
+  display: flex;
+  justify-content: center;
+}
+.form__input {
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  font-size: 1.2rem;
+	margin: 0 auto;
+  padding: 1.5rem 2rem;
+  border-radius: 0.2rem;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  width: 30%;
+  display: block;
+  border-bottom: 0.3rem solid transparent;
+  transition: all 0.3s;
+}
+
+.form__input:placeholder-shown + .form__label {
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transform: translateY(-4rem);
+  transform: translateY(-4rem);
+}
